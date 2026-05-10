@@ -1,0 +1,4 @@
+Classifier,Accuracy,Precision,Recall,F1-Score,Inf.Time(s)
+Decision Tree,1.0,1.0,1.0,1.0,0.003836
+Naive Bayes,0.9761,0.976,0.9761,0.976,0.015041
+k-NN,0.9777,0.9777,0.9777,0.9776,0.379178

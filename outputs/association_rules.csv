@@ -1,0 +1,215 @@
+algorithm,antecedents,consequents,support,confidence,lift,leverage,conviction
+Apriori,heat=Heat_Warning,hum=Low,0.059555,0.577363,1.686864,0.02425,1.556253
+Apriori,heat=Heat_Warning,pres=Low,0.054505,0.528405,1.46053,0.017186,1.353302
+Apriori,heat=Heat_Watch,hum=Low,0.07589,0.368425,1.076416,0.005388,1.041412
+Apriori,heat=Heat_Watch,pres=Low,0.08534,0.414302,1.145145,0.010817,1.089657
+Apriori,heat=Heat_Watch,pres=Medium,0.075345,0.365779,1.153077,0.010002,1.076565
+Apriori,heat=Heat_Watch,wind=Low,0.11143,0.540962,1.009295,0.001026,1.010853
+Apriori,heat=Normal,hum=High,0.24045,0.360519,1.155862,0.032423,1.076021
+Apriori,hum=High,heat=Normal,0.24045,0.770908,1.155862,0.032423,1.45376
+Apriori,hum=Medium,heat=Normal,0.242385,0.700889,1.050879,0.011735,1.11345
+Apriori,heat=Normal,hum=Medium,0.242385,0.36342,1.050879,0.011735,1.02764
+Apriori,pres=High,heat=Normal,0.260325,0.811007,1.215984,0.046239,1.762204
+Apriori,heat=Normal,pres=High,0.260325,0.390319,1.215984,0.046239,1.113713
+Apriori,heat=Normal,wind=Low,0.36979,0.554445,1.034451,0.012315,1.041443
+Apriori,wind=Low,heat=Normal,0.36979,0.689932,1.034451,0.012315,1.074105
+Apriori,pres=High,hum=High,0.11135,0.346896,1.112183,0.011232,1.053576
+Apriori,hum=High,pres=High,0.11135,0.357,1.112183,0.011232,1.056003
+Apriori,wind=Low,hum=High,0.187735,0.350265,1.122986,0.02056,1.059039
+Apriori,hum=High,wind=Low,0.187735,0.601898,1.122986,0.02056,1.165581
+Apriori,hum=Low,pres=Low,0.133425,0.389824,1.077486,0.009595,1.045944
+Apriori,pres=Low,hum=Low,0.133425,0.368791,1.077486,0.009595,1.042017
+Apriori,hum=Low,pres=Medium,0.11261,0.329009,1.037164,0.004035,1.01757
+Apriori,pres=Medium,hum=Low,0.11261,0.35499,1.037164,0.004035,1.019721
+Apriori,hum=Low,wind=High,0.12342,0.360593,1.201354,0.020686,1.094521
+Apriori,wind=High,hum=Low,0.12342,0.411188,1.201354,0.020686,1.117045
+Apriori,hum=Medium,pres=High,0.113405,0.327926,1.021608,0.002399,1.01032
+Apriori,pres=High,hum=Medium,0.113405,0.353298,1.021608,0.002399,1.011555
+Apriori,hum=Medium,pres=Medium,0.114845,0.33209,1.046876,0.005142,1.022263
+Apriori,pres=Medium,hum=Medium,0.114845,0.362036,1.046876,0.005142,1.02541
+Apriori,wind=Medium,hum=Medium,0.05965,0.364019,1.052611,0.002981,1.028608
+Apriori,pres=High,wind=Low,0.1868,0.58195,1.085767,0.014756,1.109962
+Apriori,wind=Low,pres=High,0.1868,0.34852,1.085767,0.014756,1.042258
+Apriori,wind=Medium,pres=High,0.05375,0.328014,1.021882,0.001151,1.010452
+Apriori,wind=High,pres=Low,0.12759,0.42508,1.174937,0.018997,1.110086
+Apriori,pres=Low,wind=High,0.12759,0.352663,1.174937,0.018997,1.081114
+Apriori,pres=Medium,wind=Low,0.170515,0.537529,1.00289,0.000491,1.00335
+Apriori,wind=Low,pres=Medium,0.170515,0.318137,1.00289,0.000491,1.001345
+Apriori,wind=Medium,pres=Medium,0.05458,0.333079,1.049994,0.002599,1.02378
+Apriori,"heat=Normal, pres=High",hum=High,0.093205,0.358033,1.147892,0.012008,1.071855
+Apriori,"hum=High, pres=High",heat=Normal,0.093205,0.837045,1.255025,0.01894,2.04379
+Apriori,"heat=Normal, hum=High",pres=High,0.093205,0.387627,1.2076,0.016023,1.108818
+Apriori,"heat=Normal, pres=Low",hum=High,0.08468,0.417925,1.339912,0.021482,1.182142
+Apriori,"hum=High, pres=Low",heat=Normal,0.08468,0.764329,1.145998,0.010788,1.413177
+Apriori,"hum=High, pres=Medium",heat=Normal,0.062565,0.696987,1.045028,0.002696,1.09911
+Apriori,"hum=High, wind=High",heat=Normal,0.059615,0.785545,1.177808,0.009,1.552982
+Apriori,"heat=Normal, wind=Low",hum=High,0.14562,0.393791,1.262535,0.030281,1.135079
+Apriori,"heat=Normal, hum=High",wind=Low,0.14562,0.605614,1.12992,0.016744,1.176564
+Apriori,"hum=High, wind=Low",heat=Normal,0.14562,0.775668,1.162999,0.020409,1.484607
+Apriori,hum=High,"heat=Normal, wind=Low",0.14562,0.466873,1.262535,0.030281,1.182101
+Apriori,"heat=Normal, hum=Low",pres=High,0.074265,0.403351,1.256585,0.015164,1.138039
+Apriori,"hum=Low, pres=High",heat=Normal,0.074265,0.771705,1.157057,0.010081,1.458834
+Apriori,"heat=Normal, hum=Low",pres=Medium,0.06224,0.33804,1.065634,0.003833,1.031453
+Apriori,"heat=Normal, hum=Low",wind=High,0.06406,0.347925,1.159152,0.008795,1.073259
+Apriori,"hum=Medium, pres=High",heat=Normal,0.092855,0.818791,1.227656,0.017219,1.837906
+Apriori,"heat=Normal, hum=Medium",pres=High,0.092855,0.383089,1.193461,0.015052,1.100661
+Apriori,"heat=Normal, pres=High",hum=Medium,0.092855,0.356689,1.031414,0.002828,1.016887
+Apriori,"heat=Normal, pres=Low",hum=Medium,0.070325,0.347078,1.003624,0.000254,1.001919
+Apriori,"heat=Normal, hum=Medium",pres=Medium,0.079205,0.326774,1.030116,0.002316,1.014191
+Apriori,"heat=Normal, pres=Medium",hum=Medium,0.079205,0.388241,1.122651,0.008653,1.069334
+Apriori,"hum=Medium, pres=Medium",heat=Normal,0.079205,0.689669,1.034056,0.002609,1.073192
+Apriori,"hum=Medium, wind=High",heat=Normal,0.0685,0.67926,1.01845,0.001241,1.038365
+Apriori,"heat=Normal, wind=High",hum=Medium,0.0685,0.356446,1.030712,0.002041,1.016504
+Apriori,"heat=Normal, hum=Medium",wind=Low,0.13346,0.550612,1.027299,0.003546,1.032559
+Apriori,"hum=Medium, wind=Low",heat=Normal,0.13346,0.720121,1.079714,0.009853,1.18996
+Apriori,"heat=Normal, wind=Low",hum=Medium,0.13346,0.360908,1.043613,0.005577,1.0236
+Apriori,hum=Medium,"heat=Normal, wind=Low",0.13346,0.385918,1.043613,0.005577,1.026263
+Apriori,"pres=High, wind=High",heat=Normal,0.064445,0.801156,1.201215,0.010795,1.674907
+Apriori,"heat=Normal, wind=High",pres=High,0.064445,0.335345,1.044722,0.002759,1.021598
+Apriori,"heat=Normal, pres=High",wind=Low,0.15334,0.589033,1.098983,0.013811,1.129093
+Apriori,"pres=High, wind=Low",heat=Normal,0.15334,0.820878,1.230785,0.028753,1.859319
+Apriori,"heat=Normal, wind=Low",pres=High,0.15334,0.414668,1.29184,0.034641,1.160042
+Apriori,pres=High,"heat=Normal, wind=Low",0.15334,0.47771,1.29184,0.034641,1.206628
+Apriori,"heat=Normal, wind=High",pres=Low,0.07046,0.366645,1.013419,0.000933,1.007666
+Apriori,"heat=Normal, pres=Low",wind=High,0.07046,0.347745,1.15855,0.009643,1.072962
+Apriori,"heat=Normal, pres=Medium",wind=Low,0.113505,0.55637,1.038042,0.00416,1.045961
+Apriori,"pres=High, wind=Low",hum=High,0.067255,0.360037,1.154318,0.008991,1.075211
+Apriori,"hum=High, pres=High",wind=Low,0.067255,0.603996,1.126901,0.007574,1.171757
+Apriori,"hum=High, wind=Low",pres=High,0.067255,0.358244,1.116061,0.006994,1.058051
+Apriori,"pres=Low, wind=Low",hum=High,0.064445,0.360703,1.156451,0.008718,1.076331
+Apriori,"hum=High, pres=Low",wind=Low,0.064445,0.581686,1.085276,0.005064,1.109263
+Apriori,"pres=Medium, wind=Low",hum=High,0.056035,0.328622,1.053597,0.002851,1.0249
+Apriori,"hum=High, pres=Medium",wind=Low,0.056035,0.624241,1.164672,0.007923,1.234887
+Apriori,"hum=Low, wind=Low",pres=High,0.052735,0.323696,1.008431,0.000441,1.004002
+Apriori,"hum=Low, pres=High",wind=Low,0.052735,0.547982,1.022392,0.001155,1.026551
+Apriori,"hum=Low, wind=High",pres=Low,0.056105,0.454586,1.256491,0.011453,1.170139
+Apriori,"hum=Low, pres=Low",wind=High,0.056105,0.420498,1.400938,0.016057,1.207667
+Apriori,"pres=Low, wind=High",hum=Low,0.056105,0.439729,1.284743,0.012435,1.173949
+Apriori,"hum=Low, wind=Low",pres=Medium,0.0525,0.322254,1.015869,0.00082,1.007427
+Apriori,"hum=Medium, pres=High",wind=Low,0.06681,0.589127,1.099159,0.006027,1.129353
+Apriori,"hum=Medium, wind=Low",pres=High,0.06681,0.360492,1.123063,0.007321,1.06177
+Apriori,"pres=High, wind=Low",hum=Medium,0.06681,0.357655,1.034209,0.00221,1.018417
+Apriori,"hum=Medium, pres=Medium",wind=Low,0.06198,0.539684,1.006911,0.000425,1.008046
+Apriori,"hum=Medium, wind=Low",pres=Medium,0.06198,0.33443,1.054254,0.00319,1.025858
+Apriori,"pres=Medium, wind=Low",hum=Medium,0.06198,0.363487,1.051072,0.003012,1.027748
+Apriori,"heat=Normal, pres=High, wind=Low",hum=High,0.057,0.371723,1.191783,0.009172,1.09521
+Apriori,"heat=Normal, hum=High, pres=High",wind=Low,0.057,0.611555,1.141004,0.007044,1.194558
+Apriori,"hum=High, pres=High, wind=Low",heat=Normal,0.057,0.847521,1.270731,0.012144,2.184197
+Apriori,"heat=Normal, hum=High, wind=Low",pres=High,0.057,0.39143,1.219445,0.010257,1.115746
+Apriori,"pres=High, wind=Low","heat=Normal, hum=High",0.057,0.305139,1.269034,0.012084,1.093097
+Apriori,"hum=High, pres=High","heat=Normal, wind=Low",0.057,0.511899,1.384298,0.015824,1.291148
+Apriori,"hum=High, wind=Low","heat=Normal, pres=High",0.057,0.303619,1.166309,0.008128,1.062171
+Apriori,"heat=Normal, hum=Medium, pres=High",wind=Low,0.05651,0.608583,1.135459,0.006742,1.185488
+Apriori,"hum=Medium, pres=High, wind=Low",heat=Normal,0.05651,0.845831,1.268199,0.011951,2.160266
+Apriori,"heat=Normal, hum=Medium, wind=Low",pres=High,0.05651,0.423423,1.319115,0.013671,1.177657
+Apriori,"heat=Normal, pres=High, wind=Low",hum=Medium,0.05651,0.368527,1.065647,0.003481,1.035952
+Apriori,"hum=Medium, pres=High","heat=Normal, wind=Low",0.05651,0.498303,1.347528,0.014574,1.256155
+Apriori,"hum=Medium, wind=Low","heat=Normal, pres=High",0.05651,0.304916,1.171288,0.008264,1.064151
+Apriori,"pres=High, wind=Low","heat=Normal, hum=Medium",0.05651,0.302516,1.248081,0.011232,1.086211
+FP-Growth,heat=Normal,wind=Low,0.36979,0.554445,1.034451,0.012315,1.041443
+FP-Growth,wind=Low,heat=Normal,0.36979,0.689932,1.034451,0.012315,1.074105
+FP-Growth,heat=Normal,hum=High,0.24045,0.360519,1.155862,0.032423,1.076021
+FP-Growth,hum=High,heat=Normal,0.24045,0.770908,1.155862,0.032423,1.45376
+FP-Growth,wind=Low,hum=High,0.187735,0.350265,1.122986,0.02056,1.059039
+FP-Growth,hum=High,wind=Low,0.187735,0.601898,1.122986,0.02056,1.165581
+FP-Growth,pres=High,hum=High,0.11135,0.346896,1.112183,0.011232,1.053576
+FP-Growth,hum=High,pres=High,0.11135,0.357,1.112183,0.011232,1.056003
+FP-Growth,"heat=Normal, wind=Low",hum=High,0.14562,0.393791,1.262535,0.030281,1.135079
+FP-Growth,"heat=Normal, hum=High",wind=Low,0.14562,0.605614,1.12992,0.016744,1.176564
+FP-Growth,"hum=High, wind=Low",heat=Normal,0.14562,0.775668,1.162999,0.020409,1.484607
+FP-Growth,hum=High,"heat=Normal, wind=Low",0.14562,0.466873,1.262535,0.030281,1.182101
+FP-Growth,"heat=Normal, pres=Low",hum=High,0.08468,0.417925,1.339912,0.021482,1.182142
+FP-Growth,"hum=High, pres=Low",heat=Normal,0.08468,0.764329,1.145998,0.010788,1.413177
+FP-Growth,"pres=Low, wind=Low",hum=High,0.064445,0.360703,1.156451,0.008718,1.076331
+FP-Growth,"hum=High, pres=Low",wind=Low,0.064445,0.581686,1.085276,0.005064,1.109263
+FP-Growth,"hum=High, pres=Medium",heat=Normal,0.062565,0.696987,1.045028,0.002696,1.09911
+FP-Growth,"pres=Medium, wind=Low",hum=High,0.056035,0.328622,1.053597,0.002851,1.0249
+FP-Growth,"hum=High, pres=Medium",wind=Low,0.056035,0.624241,1.164672,0.007923,1.234887
+FP-Growth,"heat=Normal, pres=High",hum=High,0.093205,0.358033,1.147892,0.012008,1.071855
+FP-Growth,"hum=High, pres=High",heat=Normal,0.093205,0.837045,1.255025,0.01894,2.04379
+FP-Growth,"heat=Normal, hum=High",pres=High,0.093205,0.387627,1.2076,0.016023,1.108818
+FP-Growth,"pres=High, wind=Low",hum=High,0.067255,0.360037,1.154318,0.008991,1.075211
+FP-Growth,"hum=High, pres=High",wind=Low,0.067255,0.603996,1.126901,0.007574,1.171757
+FP-Growth,"hum=High, wind=Low",pres=High,0.067255,0.358244,1.116061,0.006994,1.058051
+FP-Growth,"heat=Normal, pres=High, wind=Low",hum=High,0.057,0.371723,1.191783,0.009172,1.09521
+FP-Growth,"heat=Normal, hum=High, pres=High",wind=Low,0.057,0.611555,1.141004,0.007044,1.194558
+FP-Growth,"hum=High, pres=High, wind=Low",heat=Normal,0.057,0.847521,1.270731,0.012144,2.184197
+FP-Growth,"heat=Normal, hum=High, wind=Low",pres=High,0.057,0.39143,1.219445,0.010257,1.115746
+FP-Growth,"pres=High, wind=Low","heat=Normal, hum=High",0.057,0.305139,1.269034,0.012084,1.093097
+FP-Growth,"hum=High, pres=High","heat=Normal, wind=Low",0.057,0.511899,1.384298,0.015824,1.291148
+FP-Growth,"hum=High, wind=Low","heat=Normal, pres=High",0.057,0.303619,1.166309,0.008128,1.062171
+FP-Growth,hum=Low,pres=Low,0.133425,0.389824,1.077486,0.009595,1.045944
+FP-Growth,pres=Low,hum=Low,0.133425,0.368791,1.077486,0.009595,1.042017
+FP-Growth,wind=High,pres=Low,0.12759,0.42508,1.174937,0.018997,1.110086
+FP-Growth,pres=Low,wind=High,0.12759,0.352663,1.174937,0.018997,1.081114
+FP-Growth,hum=Low,wind=High,0.12342,0.360593,1.201354,0.020686,1.094521
+FP-Growth,wind=High,hum=Low,0.12342,0.411188,1.201354,0.020686,1.117045
+FP-Growth,"heat=Normal, wind=High",pres=Low,0.07046,0.366645,1.013419,0.000933,1.007666
+FP-Growth,"heat=Normal, pres=Low",wind=High,0.07046,0.347745,1.15855,0.009643,1.072962
+FP-Growth,"hum=Low, wind=High",pres=Low,0.056105,0.454586,1.256491,0.011453,1.170139
+FP-Growth,"hum=Low, pres=Low",wind=High,0.056105,0.420498,1.400938,0.016057,1.207667
+FP-Growth,"pres=Low, wind=High",hum=Low,0.056105,0.439729,1.284743,0.012435,1.173949
+FP-Growth,"heat=Normal, hum=Low",wind=High,0.06406,0.347925,1.159152,0.008795,1.073259
+FP-Growth,"hum=Medium, wind=High",heat=Normal,0.0685,0.67926,1.01845,0.001241,1.038365
+FP-Growth,"heat=Normal, wind=High",hum=Medium,0.0685,0.356446,1.030712,0.002041,1.016504
+FP-Growth,"hum=High, wind=High",heat=Normal,0.059615,0.785545,1.177808,0.009,1.552982
+FP-Growth,"pres=High, wind=High",heat=Normal,0.064445,0.801156,1.201215,0.010795,1.674907
+FP-Growth,"heat=Normal, wind=High",pres=High,0.064445,0.335345,1.044722,0.002759,1.021598
+FP-Growth,heat=Heat_Warning,hum=Low,0.059555,0.577363,1.686864,0.02425,1.556253
+FP-Growth,heat=Heat_Warning,pres=Low,0.054505,0.528405,1.46053,0.017186,1.353302
+FP-Growth,hum=Medium,heat=Normal,0.242385,0.700889,1.050879,0.011735,1.11345
+FP-Growth,heat=Normal,hum=Medium,0.242385,0.36342,1.050879,0.011735,1.02764
+FP-Growth,"heat=Normal, pres=Low",hum=Medium,0.070325,0.347078,1.003624,0.000254,1.001919
+FP-Growth,"heat=Normal, hum=Medium",wind=Low,0.13346,0.550612,1.027299,0.003546,1.032559
+FP-Growth,"hum=Medium, wind=Low",heat=Normal,0.13346,0.720121,1.079714,0.009853,1.18996
+FP-Growth,"heat=Normal, wind=Low",hum=Medium,0.13346,0.360908,1.043613,0.005577,1.0236
+FP-Growth,hum=Medium,"heat=Normal, wind=Low",0.13346,0.385918,1.043613,0.005577,1.026263
+FP-Growth,pres=Medium,wind=Low,0.170515,0.537529,1.00289,0.000491,1.00335
+FP-Growth,wind=Low,pres=Medium,0.170515,0.318137,1.00289,0.000491,1.001345
+FP-Growth,hum=Low,pres=Medium,0.11261,0.329009,1.037164,0.004035,1.01757
+FP-Growth,pres=Medium,hum=Low,0.11261,0.35499,1.037164,0.004035,1.019721
+FP-Growth,hum=Medium,pres=Medium,0.114845,0.33209,1.046876,0.005142,1.022263
+FP-Growth,pres=Medium,hum=Medium,0.114845,0.362036,1.046876,0.005142,1.02541
+FP-Growth,"heat=Normal, pres=Medium",wind=Low,0.113505,0.55637,1.038042,0.00416,1.045961
+FP-Growth,"heat=Normal, hum=Low",pres=Medium,0.06224,0.33804,1.065634,0.003833,1.031453
+FP-Growth,"hum=Low, wind=Low",pres=Medium,0.0525,0.322254,1.015869,0.00082,1.007427
+FP-Growth,"heat=Normal, hum=Medium",pres=Medium,0.079205,0.326774,1.030116,0.002316,1.014191
+FP-Growth,"heat=Normal, pres=Medium",hum=Medium,0.079205,0.388241,1.122651,0.008653,1.069334
+FP-Growth,"hum=Medium, pres=Medium",heat=Normal,0.079205,0.689669,1.034056,0.002609,1.073192
+FP-Growth,"hum=Medium, pres=Medium",wind=Low,0.06198,0.539684,1.006911,0.000425,1.008046
+FP-Growth,"hum=Medium, wind=Low",pres=Medium,0.06198,0.33443,1.054254,0.00319,1.025858
+FP-Growth,"pres=Medium, wind=Low",hum=Medium,0.06198,0.363487,1.051072,0.003012,1.027748
+FP-Growth,pres=High,heat=Normal,0.260325,0.811007,1.215984,0.046239,1.762204
+FP-Growth,heat=Normal,pres=High,0.260325,0.390319,1.215984,0.046239,1.113713
+FP-Growth,pres=High,wind=Low,0.1868,0.58195,1.085767,0.014756,1.109962
+FP-Growth,wind=Low,pres=High,0.1868,0.34852,1.085767,0.014756,1.042258
+FP-Growth,hum=Medium,pres=High,0.113405,0.327926,1.021608,0.002399,1.01032
+FP-Growth,pres=High,hum=Medium,0.113405,0.353298,1.021608,0.002399,1.011555
+FP-Growth,"heat=Normal, pres=High",wind=Low,0.15334,0.589033,1.098983,0.013811,1.129093
+FP-Growth,"pres=High, wind=Low",heat=Normal,0.15334,0.820878,1.230785,0.028753,1.859319
+FP-Growth,"heat=Normal, wind=Low",pres=High,0.15334,0.414668,1.29184,0.034641,1.160042
+FP-Growth,pres=High,"heat=Normal, wind=Low",0.15334,0.47771,1.29184,0.034641,1.206628
+FP-Growth,"heat=Normal, hum=Low",pres=High,0.074265,0.403351,1.256585,0.015164,1.138039
+FP-Growth,"hum=Low, pres=High",heat=Normal,0.074265,0.771705,1.157057,0.010081,1.458834
+FP-Growth,"hum=Low, wind=Low",pres=High,0.052735,0.323696,1.008431,0.000441,1.004002
+FP-Growth,"hum=Low, pres=High",wind=Low,0.052735,0.547982,1.022392,0.001155,1.026551
+FP-Growth,"hum=Medium, pres=High",wind=Low,0.06681,0.589127,1.099159,0.006027,1.129353
+FP-Growth,"hum=Medium, wind=Low",pres=High,0.06681,0.360492,1.123063,0.007321,1.06177
+FP-Growth,"pres=High, wind=Low",hum=Medium,0.06681,0.357655,1.034209,0.00221,1.018417
+FP-Growth,"hum=Medium, pres=High",heat=Normal,0.092855,0.818791,1.227656,0.017219,1.837906
+FP-Growth,"heat=Normal, hum=Medium",pres=High,0.092855,0.383089,1.193461,0.015052,1.100661
+FP-Growth,"heat=Normal, pres=High",hum=Medium,0.092855,0.356689,1.031414,0.002828,1.016887
+FP-Growth,"heat=Normal, hum=Medium, pres=High",wind=Low,0.05651,0.608583,1.135459,0.006742,1.185488
+FP-Growth,"hum=Medium, pres=High, wind=Low",heat=Normal,0.05651,0.845831,1.268199,0.011951,2.160266
+FP-Growth,"heat=Normal, hum=Medium, wind=Low",pres=High,0.05651,0.423423,1.319115,0.013671,1.177657
+FP-Growth,"heat=Normal, pres=High, wind=Low",hum=Medium,0.05651,0.368527,1.065647,0.003481,1.035952
+FP-Growth,"hum=Medium, pres=High","heat=Normal, wind=Low",0.05651,0.498303,1.347528,0.014574,1.256155
+FP-Growth,"hum=Medium, wind=Low","heat=Normal, pres=High",0.05651,0.304916,1.171288,0.008264,1.064151
+FP-Growth,"pres=High, wind=Low","heat=Normal, hum=Medium",0.05651,0.302516,1.248081,0.011232,1.086211
+FP-Growth,wind=Medium,pres=Medium,0.05458,0.333079,1.049994,0.002599,1.02378
+FP-Growth,wind=Medium,hum=Medium,0.05965,0.364019,1.052611,0.002981,1.028608
+FP-Growth,wind=Medium,pres=High,0.05375,0.328014,1.021882,0.001151,1.010452
+FP-Growth,heat=Heat_Watch,wind=Low,0.11143,0.540962,1.009295,0.001026,1.010853
+FP-Growth,heat=Heat_Watch,pres=Medium,0.075345,0.365779,1.153077,0.010002,1.076565
+FP-Growth,heat=Heat_Watch,pres=Low,0.08534,0.414302,1.145145,0.010817,1.089657
+FP-Growth,heat=Heat_Watch,hum=Low,0.07589,0.368425,1.076416,0.005388,1.041412
